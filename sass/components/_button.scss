@@ -17,7 +17,7 @@
 
     &::after {
         transform: scaleX(1.4) scaleY(1.6)
-        opacity: 1;
+       
     }
 }
 &:active {
@@ -53,4 +53,39 @@
 &--animated {
     animation: moveInBottom .5s ease-out .75s;
     animation-fill-mode: backwards;
+}
+}
+
+.btn-text {
+    &:link,
+    &:visited {
+        color: $color-primary;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid #0051ad;
+        transition: all, 2s;
+        position: relative;
+        font-size: $default-font-size;
+        border-radius: 10rem;
+        padding: 3px;
+
+    }
+    &.hover {
+     transform: translateY(-3px);
+     box-shadow: 0 1rem 2rem black;
+     color: $color-white;
+     box-shadow: 0 1rem 2rem #0000;
+     transform: translateY(-2px);
+
+     &::after {
+         transform: scaleX(1.4) scaleY(1.6);
+         opacity: 0;
+     }
+    }
+    
+    &:active {
+        transform: translateY(-1px);
+        box-shadow: 0 .5rem 1rem black;
+
+    }
 }

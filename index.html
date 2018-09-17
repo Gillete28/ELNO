@@ -4,26 +4,76 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/icon-font.css">
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <link rel="shortcut icon" type="image/png" href="img/nevado.png">
         
-        <title>Puerto Princesa Adventures</title>
+        <title>Nevado</title>
     </head>
     <body>
+        <div class="navigation">
+            <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation_button">
+                <span class="navigation_icon">&nbsp;</span>
+            </label>
+            <div class="navigation_background">&nbsp</div>
+             <nav class="navigation_nav">
+                 <ul class="navigation_list">
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Nevado</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>Filipino Culture</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Popular tours</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Stories</a></li>
+                        <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Book now</a></li>
+                 </ul>
+             </nav>
+        </div>
         <header class="header">
-            <div class="header_logo-box">
-                <img src="img/nevado1.png" alt="logo" class="header_logo">
+            <div class="header__logo-box">
+                <img src="img/nevado1.png" alt="logo" class="header__logo">
             </div>
             <div class="header_text-box">
             <h1 class="heading-primary">
-                <span class="heading-primary--main">El Nido </span>
+                <span class="heading-primary--main">Nevado Travels</span>
                 <span class="heading-primary--sub"> Explore the Philippines</span>
             </h1>
-             <a href="#" class="btn btn--white btn--animated">Discover Our Tours</a>
+             <a href="section-tours" class="btn btn--white btn--animated">Discover Our Tours</a>
             </div>
         </header>
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">        
+                <h2 class="heading-secondary">
+                    Explore the Philippine culture
+                </h2>
+                </div>
+                <div class="row">
+                    <div class="col-1-of-3">
+                        <h3 class="heading-tertiary u-margin-bottom-small">This will be the most memorable experience in the Philippines </h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti illo vel nostrum repudiandae alias blanditiis..
+                        </p>
+                        <h3 class="heading-tertiary u-margin-bottom-small"> The top 10 destination in SouthEast Asia</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti illo vel nostrum repudiandae alias blanditiis
+                        </p>
+                        <a href="#" class="btn-text">Learn More &rarr;</a>
+                        
+                    </div>
+                    <div class="col-1-of-2">
+                          <div class="composition">
+                          <img src="img/island1.jpg" alt="photo 1" class="composition__photo composition__photo--p1">
+                          <img src="img/island2.jpg" alt="photo 2" class="composition__photo composition__photo--p2">
+                          <img src="img/island3.jpg" alt="photo 3" class="composition__photo composition__photo--p3">
+                    </div>
+    
+                </div>
+            </div>    
+            </section>
+        </main>
+        <!---
         <section class="grid-test">
             <div class="row">
                  <div class="col-1-of-3">
@@ -36,6 +86,7 @@
                     Col 1 of  3 
                 </div>
             </div>
+
             <div class="row">
                 <div class="col-1-of-3">
                     Col 1 of 3
@@ -94,5 +145,6 @@
                </div>
 
         </section>
+    -->
     </body>
 </html>
