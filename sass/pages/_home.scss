@@ -6,4 +6,7 @@
 
 .section-features {
     padding: 20rem 0;
+    background-image: linear-gradient(to the right bottom, rgba($color-primary-light,0.8),
+    rgba($color-primary-dark, 0.8)),
+    url(../img/nevado1.png);
 }
