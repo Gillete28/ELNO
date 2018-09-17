@@ -75,7 +75,7 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  background-image: linear-gradient(to right, #0064fa, #0051ad);
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: .2rem;
@@ -386,7 +386,7 @@ body {
         position: absolute;
         z-index: 10;
         transition: all .2s;
-        outline-offset: 2rem; 
+        outline-offset: .5rem; 
       
       }
 
@@ -406,7 +406,7 @@ body {
       }
 
 .composition__photo:hover {
-        outline: 1.5rem solid #0051ad;
+        outline: 1rem solid #0051ad;
         transform: scale(1.05) translateY(-0.5rem);
         box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
         z-index: 20; 
