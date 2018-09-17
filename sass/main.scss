@@ -3,7 +3,7 @@
 @import "abstracts/variables";
 
 @import "components/button";
-
+@import "compontens/composition";
 @import "layout/header";
 @import "layout/grid";
 @import "pages/home";
@@ -21,6 +21,7 @@ Dark green: #28b485
 @import "base/typography";
 @import "base/utilities";
 @import "components/composition";
+@import "components/feature-box"
 
 
 $color-primary: #55c57a;
